@@ -61,7 +61,7 @@ services:
     depends_on:
       - backend
   graph:
-    image: "neo4j:4.3.2-community"
+    image: "neo4j:4.4-community"
     restart: unless-stopped
     expose:
       - 7474
